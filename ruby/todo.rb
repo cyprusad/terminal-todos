@@ -1,6 +1,7 @@
 class TodoList
-  def add
-
+  def add(item)
+    @list << item
+    return true
   end
 end
 
